@@ -1,5 +1,5 @@
-CC      ?= gcc
-CFLAGS  ?= -O2 -Wall
+CC      = gcc
+CFLAGS  = -O2 -Wall -Wno-int-conversion -Wno-incompatible-pointer-types -Wno-implicit-function-declaration -Wno-implicit-int
 
 .PHONY: all clean
 
